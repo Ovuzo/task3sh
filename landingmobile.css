@@ -1,7 +1,7 @@
 *{
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 h1{
     font-size: 32px;
@@ -18,19 +18,17 @@ p{
 }
 .container{
     width: 100%;
+    height: 80vh;
 }
 .wrap{
     max-width: 90%;
-}
-.container{
-    height: 60vh;
-    width: 100%;
+    margin: auto;
 }
 .container .wrap .nav-bar{
     max-width: 100%;
     display: block;
     text-align: center;
-    height: 60vh;
+    height: 70vh;
     padding: 20px 0 0 0;
 }
 
@@ -47,56 +45,60 @@ p{
 }
 .sec{
     width: 100%;
-    height: 150vh;
+    background: red;
+    height: 190vh;
 }
 .sec1{
     display: block;
-    max-width: 100%;
-    height: 100vh;
+    width: 100%;
+    height: 30%;
 }
 .sec1 .sec1-txt{
-    position: absolute;
-    top: 800px;
     text-align: center;
     width: 90%;
     margin: auto;
+    height: 320px;
+    background: yellow;
+    position: relative;
+    top: 280px;
 }
 .sec1 .sec1-txt h1{
-    font-size: 32px;
+    font-size: 32px; 
 }
 .open{
     display: block;
 }
 .open .open-img{
     margin: auto;
-    
 }
 
 .sec1 .sec1-img{
     display: block;
     width: 100%;
-    height:80vh;
     margin: auto;
-    
-
+    height: 400px;
+    position: relative;
+    top: -400px;
 }
 .sec1-img .img{
     background: url("./images/Image.png") no-repeat
     center center/cover;
 }
 .sec2{
-    padding: 20px 0 0 0;
+    position: relative;
+    top: -200px;
     width: 100%;
-    height: 170vh;
+    height: 220vh;
     align-content: center;
+    background: orchid;
 }
 .sec2-sec{
     display: block;
-    padding: 50px 0 0 0;
+    padding: 20px 0 0 0;
     
 }
 .sec2-txt{
-    width: 90%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -108,6 +110,8 @@ p{
     width:90% ;
     margin: auto;
     padding: 10px 0 0 0;
+    height: 100vh;
+    background: yellow;
 }
 
 .sec2-form .form{
@@ -115,15 +119,29 @@ p{
 }
 .sec3{
     width: 100%;
-    padding: 50px 0 0 0;
-    height: 150vh;
+   position: relative;
+   top: -80vh;
+    height: 200vh;
+    background: red;
+   
+}
+.convi{
+    width: 100%;
+    text-align: justify;
+}
+.se3-wrap{
+    background: blue;
 }
 .sec3-sec{
     display: block;
 }
 .sec4{
     width: 100%;
-    height: 260vh;
+    height: 350vh;
+    background: pink;
+    position: relative;
+    top: -400px;
+    
 }
 .sec4-txt{
     width: 90%;
@@ -148,53 +166,75 @@ p{
 }
 .sec5{
     width: 100%;
-    height: 20vh;
+    height: 70vh;
+    position: relative;
+    top: -400px;
 }
 .sec6{
     width: 100%;
     height: 10vh;
+    position: relative;
+    top: -400px;
 }
 .sec6-div{
-    width:90%;
+    width:100%;
     margin: auto;
     height: 100%;
+    justify-content: space-around;
 }
 .sec6-txt h2{
-    font-size: 16px;
+    font-size: 12px;
 }
 .sec6-txt p{
-    font-size: 10px;
+    font-size: 8px;
+}
+.sec6-txt{
+    padding: 0 0 0 20px;
+}
+.sec7{
+   display: none;
+}
+.sec7-item{
+    width: 100%;
+    height: 100%;
 }
 .sec8{
     width: 100%;
-    height: 160vh;
+    height: 220vh;
+    position: relative;
+    top: -350px;
 }
 .sec8-heading{
     width: 100%;
-
 }
 .sec8-item{
     width: 100%;
+   
 }
 .sec8-pix{
     display: block;
+    
     width: 100%;
+    
 }
 .sec8-card1{
     width: 100%;
-    margin: auto;
+   
     margin: 10px 0 0 0;
+    background: red;
 
 }
 .sec8-card1 p{
     font-size: 14px;
+   
 }
 .sec8-head{
     width: 100%;
 }
 .sec8-txt{
-    width: 70%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
+   
 }
 .sec8-nav{
     
@@ -203,6 +243,7 @@ p{
 .sec9{
     width: 100%;
     height: 170vh;
+    background: brown;
 }
 .sec9 .sec9-item{
     width: 90%;
@@ -210,7 +251,16 @@ p{
 }
 .sec9-card{
     width: 100%;
-    height: 250px;
+    height: 400px;
+}
+.sec9-txt{
+    background: purple;
+    width: 100%;
+    height: 120px;
+}
+.sec9-txt p{
+    line-height: 18px;
+    text-align: justify;
 }
 .card1{
     width: 100%;
@@ -220,22 +270,35 @@ p{
     width: 100%;
     height: 50%;
 }
+.sec9-card1{
+    background: lime;
+    height: 80px;
+   
+}
 .sec9-card .first{
     width: 100%;
     height: 90%;
 }
 .other{
     width: 100%;
-    height: 100px;
+    height: 80px;
+    background: red;
+    margin: 0;
+    padding: 0;
 }
 .other div{
-    height: 100px;
+    height: 40px;
+    background: blue;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
 }
 .sec9-card .first .sec9-txt p{
     width: 100%;
    font-size: 12px;
     
-    text-align: center;
+   
 }
 .sec9-card .sec9-card1 .sec9-card-div1 {
     text-align: center;
