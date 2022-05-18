@@ -1,4 +1,5 @@
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +19,7 @@ p{
 }
 .container{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
 .wrap{
     max-width: 90%;
@@ -45,7 +46,6 @@ p{
 }
 .sec{
     width: 100%;
-    background: red;
     height: 190vh;
 }
 .sec1{
@@ -58,7 +58,6 @@ p{
     width: 90%;
     margin: auto;
     height: 320px;
-    background: yellow;
     position: relative;
     top: 280px;
 }
@@ -86,11 +85,11 @@ p{
 }
 .sec2{
     position: relative;
-    top: -200px;
+    top: -150px;
     width: 100%;
     height: 220vh;
     align-content: center;
-    background: orchid;
+
 }
 .sec2-sec{
     display: block;
@@ -102,6 +101,7 @@ p{
     margin: auto;
     text-align: center;
     font-size: 18px;
+    padding: 20px 0;
 }
 .sec2-txt h1, .sec2-txt1{
     text-align: center;
@@ -112,7 +112,6 @@ p{
     margin: auto;
     padding: 10px 0 0 0;
     height: 100vh;
-    background: yellow;
 }
 
 .sec2-form .form{
@@ -123,37 +122,56 @@ p{
 }
 .sec3{
     width: 100%;
-   position: relative;
-   top: -80vh;
+   
     height: 200vh;
-    background: red;
+
    
 }
 .convi{
     width: 100%;
-    text-align: justify;
+    text-align: left;
+    
+}
+.icon h4{
+    border: none;
 }
 .se3-wrap{
-    background: blue;
 }
 .sec3-sec{
     display: block;
 }
 .sec4{
     width: 100%;
-    height: 350vh;
-    background: pink;
+    height: 240vh;
     position: relative;
-    top: -400px;
+    top: -20px;
     
 }
 .sec4-card{
-    background: lightsalmon;
-
+    height: 80%;
     width: 100%;
+    
 }
 .sec4-card .card{
     width: 100%;
+    height: 70px;
+    margin: 0 0 10px 0
+
+}
+.icon-wrap{
+   
+    position: relative;
+    top: -10px;
+    width: 50%;
+    margin: auto;
+
+}
+.icon{
+    
+}
+.icon-wrap h4{
+    font-size: 12px;
+    
 }
 .sec4-txt{
     width: 90%;
@@ -165,30 +183,54 @@ p{
 }
 .row-1{
     display: block;
-    width: 100%;
-    height: inherit;
+    width: 80%;
+    height: 45%;
     margin: auto;
+    
 }
-.card{
-    width: 70%;
-}
+
 .more{
     width: 50%;
     margin: auto;
 }
-.sec5{
-    max-width: 100%;
-    height: 70vh;
-    
-    
-}
+
 .sec5-img{
+
 }
+/*section five start*/
+.sec5{
+    width: 100%;
+    height: 50vh;
+    background: #E2E6E9;
+}
+.sec5 .sec5-img{
+    width: 100%;
+    height: 100%;
+}
+.sec5-img .sec5-pix1{
+    height: 100%;
+    background: url("./images/image-car.png") no-repeat
+    center center/cover;
+
+
+}
+.sec5-img .sec5-pix2{
+    height: 100%;
+    background: url("./images/car-engine.png") no-repeat
+    center center/cover;
+    
+}
+.sec5-pix1 .inner-bg{
+   display: none;
+}
+.sec5-img, .sec5-pix1, .sec5-pix2{
+    flex: 1;
+}
+/*section five end*/
 
 .sec6{
     width: 100%;
     height: 10vh;
-   
 }
 .sec6-div{
     width:100%;
@@ -214,9 +256,9 @@ p{
 }
 .sec8{
     width: 100%;
-    height: 220vh;
+    height: 180vh;
     position: relative;
-    top: -350px;
+    top: -50px;
 }
 .sec8-heading{
     width: 100%;
@@ -231,11 +273,12 @@ p{
     width: 100%;
     
 }
-.sec8-card1{
+.sec8 .sec8-item .sec8-card1{
     width: 100%;
-   
+    height: 220px;
     margin: 10px 0 0 0;
-    background: red;
+    
+    
 
 }
 .sec8-card1 p{
@@ -257,7 +300,6 @@ p{
 .sec9{
     width: 100%;
     height: 170vh;
-    background: brown;
 }
 .sec9 .sec9-item{
     width: 90%;
@@ -268,7 +310,6 @@ p{
     height: 400px;
 }
 .sec9-txt{
-    background: purple;
     width: 100%;
     height: 120px;
 }
@@ -285,7 +326,6 @@ p{
     height: 50%;
 }
 .sec9-card1{
-    background: lime;
     height: 80px;
    
 }
@@ -296,13 +336,11 @@ p{
 .other{
     width: 100%;
     height: 80px;
-    background: red;
     margin: 0;
     padding: 0;
 }
 .other div{
     height: 40px;
-    background: blue;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -378,7 +416,6 @@ p{
 }
 .copy{
     width: 100%;
-    background: red;
 
 }
 .copy{
