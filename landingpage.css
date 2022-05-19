@@ -537,6 +537,442 @@ a{
 .copy{
     padding: 25px 0 0 0;
 }
+@media screen and (max-width: 769px){
 
+}
+
+@media screen and (max-width: 450px){
+    *{
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    h2{
+        font-size: 24px
+    }
+    .h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .container{
+        width: 100%;
+        height: 90vh;
+    }
+    .wrap{
+        max-width: 90%;
+        margin: auto;
+    }
+    .container .wrap .nav-bar{
+        max-width: 100%;
+        display: block;
+        text-align: center;
+        height: 70vh;
+        padding: 20px 0 0 0;
+    }
+    
+    .link ul{
+        display: block;
+        
+    }
+    .link{
+        margin: auto;
+        padding: 0.5rem 0 0 0;
+    }
+    .link ul li, .contact{
+        padding: 1rem 0 0 0;
+        
+    }
+    .contact{
+        justify-content: center;
+    }
+    .sec{
+        width: 100%;
+        height: 190vh;
+    }
+    .sec1{
+        display: block;
+        width: 100%;
+        height: 30%;
+    }
+    .sec1 .sec1-txt{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        height: 320px;
+        position: relative;
+        top: 280px;
+    }
+    .sec1 .sec1-txt h1{
+        font-size: 32px; 
+    }
+    .open{
+        display: block;
+    }
+    .open .open-img{
+        margin: auto;
+    }
+    
+    .sec1 .sec1-img{
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 400px;
+        position: relative;
+        top: -400px;
+    }
+    .sec1-img .img{
+        background: url("./images/Image.png") no-repeat
+        center center/cover;
+    }
+    .sec2{
+        position: relative;
+        top: -150px;
+        width: 100%;
+        height: 220vh;
+        align-content: center;
+    
+    }
+    .sec2-sec{
+        display: block;
+        padding: 20px 0 0 0;
+        
+    }
+    .sec2-txt{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    .sec2-txt h1, .sec2-txt1{
+        text-align: center;
+        
+    }
+    .sec2-form{
+        width:90% ;
+        margin: auto;
+        padding: 10px 0 0 0;
+        height: 100vh;
+    }
+    
+    .sec2-form .form{
+        text-align: center;
+    }
+    .sec2-txt1 .item2{
+    
+    }
+    .sec3{
+        width: 100%;
+       
+        height: 200vh;
+    
+       
+    }
+    .convi{
+        width: 100%;
+        text-align: left;
+        
+    }
+    .icon h4{
+        border: none;
+    }
+    .se3-wrap{
+    }
+    .sec3-sec{
+        display: block;
+    }
+    .sec4{
+        width: 100%;
+        height: 240vh;
+        position: relative;
+        top: -20px;
+        
+    }
+    .sec4-card{
+        height: 80%;
+        width: 100%;
+        
+    }
+    .sec4-card .card{
+        width: 100%;
+        height: 70px;
+        margin: 0 0 10px 0
+    
+    }
+    .icon-wrap{
+       
+        position: relative;
+        top: -10px;
+        width: 50%;
+        margin: auto;
+    
+    }
+    .icon{
+        
+    }
+    .icon-wrap h4{
+        font-size: 12px;
+        
+    }
+    .sec4-txt{
+        width: 90%;
+        height: 100%;
+    
+    }
+    .sec4-txt h1{
+        font-size: 32px;
+    }
+    .row-1{
+        display: block;
+        width: 80%;
+        height: 45%;
+        margin: auto;
+        
+    }
+    
+    .more{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .sec5-img{
+    
+    }
+    /*section five start*/
+    .sec5{
+        width: 100%;
+        height: 50vh;
+        background: #E2E6E9;
+    }
+    .sec5 .sec5-img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec5-img .sec5-pix1{
+        height: 100%;
+        background: url("./images/image-car.png") no-repeat
+        center center/cover;
+    
+    
+    }
+    .sec5-img .sec5-pix2{
+        height: 100%;
+        background: url("./images/car-engine.png") no-repeat
+        center center/cover;
+        
+    }
+    .sec5-pix1 .inner-bg{
+       display: none;
+    }
+    .sec5-img, .sec5-pix1, .sec5-pix2{
+        flex: 1;
+    }
+    /*section five end*/
+    
+    .sec6{
+        width: 100%;
+        height: 10vh;
+    }
+    .sec6-div{
+        width:100%;
+        margin: auto;
+        height: 100%;
+        justify-content: space-around;
+    }
+    .sec6-txt h2{
+        font-size: 12px;
+    }
+    .sec6-txt p{
+        font-size: 8px;
+    }
+    .sec6-txt{
+        padding: 0 0 0 20px;
+    }
+    .sec7{
+       display: none;
+    }
+    .sec7-item{
+        width: 100%;
+        height: 100%;
+    }
+    .sec8{
+        width: 100%;
+        height: 180vh;
+        position: relative;
+        top: -50px;
+    }
+    .sec8-heading{
+        width: 100%;
+    }
+    .sec8-item{
+        width: 100%;
+       
+    }
+    .sec8-pix{
+        display: block;
+        
+        width: 100%;
+        
+    }
+    .sec8 .sec8-item .sec8-card1{
+        width: 100%;
+        height: 220px;
+        margin: 10px 0 0 0;
+        
+        
+    
+    }
+    .sec8-card1 p{
+        font-size: 14px;
+       
+    }
+    .sec8-head{
+        width: 100%;
+    }
+    .sec8-txt{
+        width: 100%;
+        text-align: left;
+       
+    }
+    .sec8-nav{
+        
+        margin: auto;
+    }
+    .sec9{
+        width: 100%;
+        height: 170vh;
+    }
+    .sec9 .sec9-item{
+        width: 90%;
+        height: 100%;
+    }
+    .sec9-card{
+        width: 100%;
+        height: 400px;
+    }
+    .sec9-txt{
+        width: 100%;
+        height: 120px;
+    }
+    .sec9-txt p{
+        line-height: 18px;
+        text-align: justify;
+    }
+    .card1{
+        width: 100%;
+        height: 250px;
+    }
+    .sec9-card .sec9-card1{
+        width: 100%;
+        height: 50%;
+    }
+    .sec9-card1{
+        height: 80px;
+       
+    }
+    .sec9-card .first{
+        width: 100%;
+        height: 90%;
+    }
+    .other{
+        width: 100%;
+        height: 80px;
+        margin: 0;
+        padding: 0;
+    }
+    .other div{
+        height: 40px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .sec9-card .first .sec9-txt p{
+        width: 100%;
+       font-size: 12px;
+        
+       
+    }
+    .sec9-card .sec9-card1 .sec9-card-div1 {
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        height: 100vh;
+    }
+    .footer-wrap{
+        padding: 40px 0 0 0;
+    }
+    .footer-flex{
+        display: block;
+        
+    }
+    .footer-txt1{
+        width: 100%;
+        text-align: center;
+        
+        margin: auto;
+    }
+    .footer-txt1 h1{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 20px 20px 0 20px;
+        
+    }
+    .footer-icons{
+        width: 80%;
+        
+        margin: auto;
+    }
+    .footer-txt2{
+        width: 100%;
+        text-align: center;
+    }
+    .footer2{
+        width: 100%;
+        height: 70vh;
+    }
+    .footer-item{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .footer-logo {
+        
+        width: 100%;
+    }
+    .footer-logo img{
+        margin: auto;
+        display: block;
+    }
+    .footer-link ul{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+    .footer-link ul li{
+        padding: 20px 0 0 0;
+    }
+    .copy{
+        width: 100%;
+    
+    }
+    .copy{
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+    
+    
+
+}
 
 
