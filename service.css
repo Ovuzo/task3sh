@@ -481,7 +481,34 @@ a{
     padding: 25px 0 0 0;
 }
 @media screen and (max-width: 769px){
-
+    li a, .contact{
+        font-size: 12px;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec2-wrap{
+        width: 90%;
+        margin: auto;
+    }
+    .sec2-item1-txt h1{
+        font-size: 32px;
+    }
+    .sec2-item1-txt p{
+        line-height: 18px;
+    }
+    .sec3-h1 h1{
+       font-size: 32px;
+    }
+    .h1 h1{
+        font-size: 32px;
+    }
+    .footer-txt1{
+        font-size: 32px;
+    }
+    footer{
+        height:100px;
+    }
 }
 @media screen and (max-width: 450px){
     *{
