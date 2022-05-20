@@ -504,7 +504,11 @@ a{
         font-size: 32px;
     }
     .footer-txt1{
-        font-size: 32px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .footer{
+        height: 300px;
     }
     footer{
         height:100px;
